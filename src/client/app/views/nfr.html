@@ -1,0 +1,62 @@
+<div>
+    <a [routerLink]="['/newproject']"><button type="button" class="btn btn-success btn-lg">New Project</button></a>
+    <a [routerLink]="['/pandp']"><button type="button" class="btn btn-success btn-lg">Practice And Platform</button></a>
+    <a [routerLink]="['/technologies']"><button type="button" class="btn btn-success btn-lg">Technologies</button></a>
+    <button type="button" class="btn btn-success btn-lg">NFR</button>
+    <button type="button" class="btn btn-default btn-lg" disabled="disabled">Submission</button>
+</div>
+
+
+
+<section id="wizard-p-3" role="tabpanel" aria-labelledby="wizard-h-3" class="body current" aria-hidden="false" style="display: block; left: 0px;">
+    <table class="table-fill">
+        <thead>
+            <tr>
+                <th class="text-left">NFR</th>
+                <th class="text-left">Complexity</th>
+                <th class="text-left">Select</th>
+            </tr>
+        </thead>
+        <tbody class="table-hover">
+            <tr>
+                <td class="text-left">Browser Compatibility</td>
+                <td class="text-left"> <select class="multibutton" id="">
+                              <option value="1">High </option>
+                              <option value="2">Medium </option>
+                              <option value="4">Low </option>
+                           </select></td>
+                <td>
+                    <input type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td class="text-left">Code Analysis</td>
+                <td class="text-left"> <select class="multibutton" id="">
+                              <option value="1">High </option>
+                              <option value="2">Medium </option>
+                              <option value="4">Low </option>
+                           </select></td>
+                <td>
+                    <input type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td class="text-left">Unit Testing</td>
+                <td class="text-left"> <select class="multibutton" id="">
+                              <option value="1">High </option>
+                              <option value="2">Medium </option>
+                              <option value="4">Low </option>
+                           </select></td>
+                <td>
+                    <input type="checkbox">
+                </td>
+            </tr>
+
+
+        </tbody>
+
+    </table>
+    <a [routerLink]="['/technologies']"><button type="button" class="btn btn-success prev">Prev</button></a>
+    <a [routerLink]="['/submission']"><button type="button" class="btn btn-success next">Next</button></a>
+
+</section>

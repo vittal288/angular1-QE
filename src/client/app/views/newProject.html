@@ -1,0 +1,76 @@
+<div>
+    <button type="button" class="btn btn-success btn-lg">New Project</button>
+    <button type="button" class="btn btn-default btn-lg" disabled="disabled">Practice And Platform</button>
+    <button type="button" class="btn btn-default btn-lg" disabled="disabled">Technologies</button>
+    <button type="button" class="btn btn-default btn-lg" disabled="disabled">Nfr</button>
+    <button type="button" class="btn btn-default btn-lg" disabled="disabled">Submission</button>
+    <div>
+        <section aria-hidden="false" aria-labelledby="wizard-h-0" class="body current" id="wizard-p-0" role="tabpanel" style="display: block; left: 0px;">
+            <div class="col-sm-6">
+                <form action="index.php" class="form-horizontal" method="post" role="form">
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="name">Proposal Name</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="name" name="name" placeholder="" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="email">Nexus ID</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="nexus" name="nexus" placeholder="" type="email" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="email">Bid Owner</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="nexus" name="nexus" placeholder="" type="email" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="email">Due Date</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="date" name="date" placeholder="" type="date" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <form action="" class="form-horizontal" method="post" role="form">
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="name">Proposal ID</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" disabled="" id="proposalid" name="proposalid" placeholder="" type="text" value="P1234">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="email">IG/Account</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="account" name="account" placeholder="" type="email" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="email">Bid Team(group of minds)</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="bidteam" name="bidteam" placeholder="" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="email">Upload relevant artifacts(view structure, upload)</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="upload" name="upload" placeholder="" type="file" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+
+                        </div>
+                    </div>
+                    <a [routerLink]="['/pandp']"><button type="button" class="btn btn-success next">Next</button></a>
+                </form>
+            </div>
+        </section>

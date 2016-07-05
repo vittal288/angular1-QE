@@ -1,0 +1,28 @@
+
+  <div class="mainContainer">
+    <header>
+      <div class="container-fluid">
+        <div class="row" style="background:#333">
+          <div class=" col-sm-12 project-title-text ">
+            Mindtree Quick Estimation
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <dl class="accordion">
+        <a [routerLink]="['/newproject']">
+          <dt class="accordion__title active-project">NEW PROPOSAL</dt>
+        </a>
+        <dd class="accordion__content">
+          <div id="wizard" role="application" class="wizard clearfix">
+            <router-outlet></router-outlet>
+          </div>
+        </dd>
+        <a [routerLink]="['/projects']">
+          <dt class="accordion__title completed-project">PROJECTS</dt>
+        </a>
+
+      </dl>
+    </div>
+  </div>
